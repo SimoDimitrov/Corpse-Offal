@@ -20,15 +20,44 @@
 <button class="button button1" onclick="location.href='./Prices.html';">Ценоразпис</button>
 
 <br><br>
-<p align="center"> <img src="./Images/slide.png" alt="image" align="center"> </p>
+
+<div id="show1">
+
+<span id="show2">
+<button class="butt butt2" onclick="myShow.previous()"><</button>
+</span>
+
+<span id="show2">
+<img class="nature" src="./Images/4.jpg">
+</span>
+
+<span id="show2">
+<img class="nature" src="./Images/5.png">
+</span>
+
+<span id="show2">
+<img class="nature" src="./Images/6.png">
+</span>
+
+<span id="show2">
+<button class="butt butt2" onclick="myShow.next()">></button>
+</span>
+
+</div>
+
+<script>
+slide.slideshow(".nature");
+</script>
+
+<script>
+myShow = slide.slideshow(".nature", 0);
+</script>
+
 <br><br>
 
 <span id="clock"></span>
 <span id="txt"> &nbsp Бъди предпазлив! Твоят час наближава!</span>
 <p align="center"> <img id="doc" src="./Images/doctors.png" alt="image"> </p>
-
-
-
 
 
 </body>
