@@ -311,14 +311,14 @@
 	display: inline-block;
 }
 
-#myImg {
+#myImg{
     border-radius: 15px;
     cursor: pointer;
     transition: 0.3s;
 	margin-left: 4.2%;
 }
 
-#myImg:hover {
+#myImg:hover{
 	opacity: 0.6;
 }
 
@@ -327,6 +327,13 @@
     font-weight: bolder;
     font-family: Helvetica;
     color: #00ff9d;
+}
+
+#mail{
+	font-size: 50px;
+	color: white;
+	font-weight: bold;
+	font-family: Helvetica;
 }
 
 .child{
